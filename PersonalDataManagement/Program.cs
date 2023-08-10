@@ -75,6 +75,8 @@ public class Program
             Address = "h",
             Age = 27,
         });
+        Operation operation = new Operation();
+            operation.RetreiveTopTwoRecords(persons);
 
     }
 }
