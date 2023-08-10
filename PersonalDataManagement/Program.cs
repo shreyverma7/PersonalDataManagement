@@ -76,7 +76,8 @@ public class Program
             Age = 27,
         });
         Operation operation = new Operation();
-            operation.RetreiveTopTwoRecords(persons);
+        // operation.RetreiveTopTwoRecords(persons);
+        operation.RetreiveRecordsInBetweenAge(persons);
 
     }
 }

@@ -25,6 +25,11 @@ namespace PersonalDataManagement
             var result = list.Where(x => x.Age < 60).Take(2);
             Display(result.ToList());
         }
+        public void RetreiveRecordsInBetweenAge(List<Person> list)
+        {
+            var result = list.Where(x => x.Age > 13 && x.Age < 18);
+            Display(result.ToList());
+        }
         public void Display(List<Person> list)
         {
             foreach (var data in list)
