@@ -87,7 +87,8 @@ public class Program
         // operation.RetreiveRecordsInBetweenAge(persons);
        // operation.RetreiveAverageAge(persons);
        // operation.RetreivePersonaDetailsByName(persons);
-        operation.SkipRecordsOfAge(persons);
+      //  operation.SkipRecordsOfAge(persons);
+        operation.RemovePersonaDetailsByName(persons);
 
     }
 }
