@@ -75,11 +75,19 @@ public class Program
             Address = "h",
             Age = 27,
         });
+        persons.Add(new Person()
+        {
+            SSN = 12,
+            Name = "i",
+            Address = "i",
+            Age = 61,
+        });
         Operation operation = new Operation();
         // operation.RetreiveTopTwoRecords(persons);
         // operation.RetreiveRecordsInBetweenAge(persons);
        // operation.RetreiveAverageAge(persons);
-        operation.RetreivePersonaDetailsByName(persons);
+       // operation.RetreivePersonaDetailsByName(persons);
+        operation.SkipRecordsOfAge(persons);
 
     }
 }
