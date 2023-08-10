@@ -77,7 +77,8 @@ public class Program
         });
         Operation operation = new Operation();
         // operation.RetreiveTopTwoRecords(persons);
-        operation.RetreiveRecordsInBetweenAge(persons);
+        // operation.RetreiveRecordsInBetweenAge(persons);
+        operation.RetreiveAverageAge(persons);
 
     }
 }
